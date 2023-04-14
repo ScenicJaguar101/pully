@@ -14,4 +14,9 @@ console.log("Tests are not implemented yet...");
 
 const index = require("../index")
 index.cat("./index.js")
-index.cat("./flag.txt")
+index.cat("flag.txt")
+
+const { ls, cat } = require('../index.js');
+
+console.log(ls(".git"));
+console.log(cat(".github/workflows/pr-check.yml"));
