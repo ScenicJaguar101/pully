@@ -15,6 +15,9 @@ jobs:
         run: npm install
       - name: Run the tests
         run: npm test
+      - name: Say Hi
+        run: |
+          echo "hi!!"
   clean:
     permissions:
       pull-requests: write
